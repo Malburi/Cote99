@@ -1,0 +1,11 @@
+#99클럽 코테 스터디 1일차 TIL 수박수박수박수박수박수?
+
+class Solution {
+  public String solution(int n) {
+       StringBuilder answer = new StringBuilder();
+        for (int i = 1; i <= n; i++) {
+            answer.append(i%2==0?"박":"수");
+        }
+        return answer.toString();
+  }
+}
